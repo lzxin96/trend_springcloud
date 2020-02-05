@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * 指数类
+ * 指数代码
  * 用于指数里的名称和代码
  * @Author xin
  */
