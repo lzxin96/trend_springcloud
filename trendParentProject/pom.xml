@@ -11,6 +11,8 @@
         <module>index-gather-store-service</module>
         <module>index-gather-store-service</module>
         <module>index-gather-store-service</module>
+        <module>index-codes-service</module>
+        <module>index-data-service</module>
     </modules>
 
     <packaging>pom</packaging>
