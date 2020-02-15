@@ -24,6 +24,7 @@ public class BackTestController {
     @CrossOrigin
     public Map<String, Object> backTest(@PathVariable("code") String code) throws Exception{
         List<IndexData> indexData = backTestService.listIndexData(code);
+
         Map<String, Object> map = new HashMap<>();
         map.put("indexDatas", indexData);
         return map;
